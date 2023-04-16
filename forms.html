@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <style >
+        h3 {color: rgb(91, 8, 67); 
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   }
+        h1 {color:rgb(114, 214, 214);
+            font-style: oblique;
+            font font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;}
+        p::first-letter{color: darkblue;}
+        .practice{color: olive; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+        h1:hover{ color: rgb(221, 250, 114);
+                    text-decoration: underline;}
+        .head{ background-color: rgb(193, 164, 199);
+            font-family: 'Pacifico';
+            text-shadow: 5px 5px #558ABB;
+    </style>
+    
+</head>
+<body>
+    <h1 class="head">Namaste!</h1>
+    <h3 class="head">This website is made by Krati. She wants you to enter details as mentioned and tell her if the website is working well.</h3>
+    <hr>
+    <h1>Timepass FORM</h1>
+    <form>
+        <p>First Name:<input type="text" name="fname" id="name" required></p>
+        <p>Last Name:<input type="text" name="lname" id="name" required></p>
+
+        <fieldset>
+            <legend>Gender
+            </legend>
+            <p>Male<input type="radio" name="gender" id="male"></p>
+            <p>Female<input type="radio" name="gender" id="female"></p>
+            <p>other<input type="radio" name="gender" id="other"></p>
+        </fieldset>
+        <p>Age<input type="number" name="age" id="age" ></p>
+        <p> <textarea columns="100" rows="3">**Your Address Here**</textarea></p>
+        <p>DOB: <input type="date" name="date_of_birth">
+        </p>
+        <p>Email: <input type="email" name="email"></p>
+        <p>Pincode:<input type="number" value="pincode"></p>
+        <p>Mobile Number: <input type="number"></p>
+        <p>Choose your favourite color<input type="color" name="color" > </p>
+        <hr>
+        <fieldset>
+            <legend>What are your favourite movies?</legend>
+
+        
+        <p><input type="checkbox" name="movie" id="jwm">Jab We Met</p>
+        <p><input type="checkbox" name="movie" id="yjhd">Yeh Jawani Hai Deewani</p>
+        <p><input type="checkbox" name="movie" id="znmd">Zindagi Milegi Na Dobara</p>
+        <p><input type="checkbox" name="movie" id="php">Phir Hera Pheri</p>
+        <p><input type="checkbox" name="movie" id="vivah">Vivah</p>
+        <p><input type="checkbox" name="movie" id="sher">Shershaah</p>
+        <p><input type="checkbox" name="movie" id="chhichhore">Chhichore</p>
+        <p class="practice">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, iste laudantium repellat soluta repudiandae ad placeat magni dolorum facilis dolor ea consequuntur officiis excepturi quaerat corporis quam voluptatibus accusamus quia illo, corrupti nulla? Pariatur laudantium inventore eius tempore esse, debitis ratione praesentium harum quae facere adipisci amet nam cupiditate consectetur laboriosam maxime nihil voluptatum quas nobis illum! Maxime, fugit quia temporibus earum adipisci molestiae minima a consectetur cumque corrupti quas similique fugiat molestias blanditiis, ducimus dolorem, aperiam accusantium tempora. Accusantium at mollitia aliquam nobis! Fuga, rem modi dolor quas hic tempore. Eum itaque at quaerat quod earum sed velit quo!</p>
+
+        </fieldset>
+        <p>Image<input type="image" name="image"></p>
+        <p>Password:<input type="password" name="pass"></p>
+        <p>tel input<input type="tel" ><br>Range<input type="range" ></p>
+        <p>Search<input type="search"></p>
+        <p>Press this to reset the form!<input type="reset" value="Reset"></p>
+        <p>Press this to submit the form<input type="submit"></p>
+    </form>
+</body>
+</html>
